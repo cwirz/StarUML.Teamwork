@@ -6303,7 +6303,7 @@ define('formats/upload_pack_parser',['formats/pack', 'utils/misc_utils'], functi
 
         //console.log("Parsing upload pack of  " + arraybuffer.byteLength + " bytes")
         var startTime = new Date()
-        var pktLine = nextPktLine()
+        var pktLine = nextPktLine(true)
         var packFileParser
         var remoteLine = ""
         //var packData = ""
